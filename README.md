@@ -1,131 +1,113 @@
-# 🧑‍💻 MERN Freelance Marketplace
+<div align="center">
 
-A full-featured Freelance Marketplace web application built with the **MERN Stack** — allowing clients to hire freelancers, post jobs, bid on services, manage profiles, and much more.
+# 🧑‍💻 MERN Freelance Marketplace  
+A modern freelance hiring platform built using the MERN stack.
 
-> 🌟 Modern, responsive, and built with role-based access: Client 👤 | Freelancer 💼 | Admin 🛡️
+[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](#)
+[![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](#)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
+[![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens)](#)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
 
----
-
-## 🚀 Tech Stack
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node-dot-js&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+</div>
 
 ---
 
-## 📸 Screenshots
+## ✨ Overview
 
-| Landing Page | Freelancer Profile | Job Listings |
-|--------------|--------------------|---------------|
-| ![Landing](assets/screenshots/home.png) | ![Freelancer](assets/screenshots/freelancer.png) | ![Jobs](assets/screenshots/jobs.png) |
+The **MERN Freelance Marketplace** is a full-featured web application where clients can hire freelancers, post jobs, and manage ongoing projects. Freelancers can showcase their skills, bid on jobs, and maintain a profile with a portfolio.
 
-> 💡 You can add your own screenshots inside a folder like `assets/screenshots/`.
+> 🔐 Includes role-based access for **Clients**, **Freelancers**, and **Admins**
 
 ---
 
-## 🧰 Features
+## 🚩 Features
 
-- 🔐 Role-based login (Client, Freelancer, Admin)
-- 📝 Post & browse jobs
-- 💬 Bid on jobs
-- 👤 Create and manage freelancer profiles
-- 📂 Upload portfolios / services
-- 📊 Admin dashboard to manage listings
-- 🎯 Category filters, search, pagination, and more!
+- ✅ **Secure Authentication** with JWT
+- 👤 Role-based Dashboards for Client, Freelancer & Admin
+- 📂 Job Posting & Application System
+- 💼 Freelancer Bidding Workflow
+- 🧾 Resume/Portfolio Upload & Showcase
+- 📊 Admin Management Dashboard
+- 🌐 Fully responsive frontend with Tailwind CSS
+- 🔍 Filters, Search, and Categorized Listings
 
 ---
 
-## ⚙️ Getting Started
+## 🖼️ Screenshots
 
-### 1️⃣ Clone the repo
+> Add screenshots to `assets/screenshots/` and link them here.
+
+| Landing Page | Freelancer Profile | Job Board |
+|--------------|--------------------|------------|
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/freelancer.png) | ![](assets/screenshots/jobs.png) |
+
+---
+
+## 🛠️ Getting Started
+
+### 📦 Clone & Install
 
 ```bash
 git clone https://github.com/Amarnaath05/Mern-Freelance-Marketplace.git
 cd Mern-Freelance-Marketplace
 ```
 
-### 2️⃣ Install dependencies
-
-- Frontend:
+**Frontend Setup**
 
 ```bash
 cd freelancerfrontend
 npm install
+npm run dev
 ```
 
-- Backend:
+**Backend Setup**
 
 ```bash
 cd ../freelancerbackend
 npm install
+npm run dev
 ```
 
-### 3️⃣ Setup `.env` for backend
+### 🔐 Environment Variables (`freelancerbackend/.env`)
 
-Create a `.env` file inside `freelancerbackend/`:
-
-```
+```env
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 PORT=5000
 ```
 
-### 4️⃣ Run the app
-
-- Backend:
-
-```bash
-npm run dev
-```
-
-- Frontend (in a new terminal):
-
-```bash
-cd freelancerfrontend
-npm run dev
-```
-
 ---
 
-## 📁 Folder Structure
+## 📁 Project Structure
 
 ```
 Mern-Freelance-Marketplace/
-├── freelancerbackend/
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── middleware/
 ├── freelancerfrontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── RoleContext.jsx
+│   └── src/components, pages, context/
+├── freelancerbackend/
+│   └── routes, controllers, models, middleware/
 └── README.md
 ```
 
 ---
 
-## 🧑‍💻 Author
+## 🙋 Author
 
 **Amarnaath K**  
-📧 [Email](mailto:youremail@example.com)  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
-💻 [Portfolio](https://your-portfolio-link.com)
+📧 Email: [youremail@example.com](mailto:youremail@example.com)  
+🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
+🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Fork the repo, make changes, and open a PR.
+We welcome contributions! Feel free to fork the repo, make changes, and create a pull request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
-See `LICENSE` for more details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
