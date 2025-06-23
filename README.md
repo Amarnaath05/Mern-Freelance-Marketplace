@@ -95,10 +95,10 @@ Mern-Freelance-Marketplace/
 
 ## 🙋 Author
 
-**Amarnaath K**  
-📧 Email: [youremail@example.com](mailto:youremail@example.com)  
-🔗 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-🌐 Portfolio: [your-portfolio.com](https://your-portfolio.com)
+**Amar**  
+📧 Email: [youremail@example.com](mailto:amarnaathamarnaath12@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/your-profile]()  
+🌐 Portfolio: [your-portfolio.com]([https://your-portfolio.com](https://www.linkedin.com/in/amarnaath-pechimuthu-99617426a/))
 
 ---
 
