@@ -1,0 +1,173 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Full Page Styling */
+.login-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+/* Background Image */
+.login-bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Dark Overlay */
+.login-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+
+/* Main Content Wrapper */
+.login-content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Left Side - Text */
+.login-text {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  
+    text-align: center; 
+    height: 100%;  
+    margin-top: 100px;
+   padding-right: 50px;
+}
+
+
+.login-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.login-text p {
+    font-size: 1.2rem;
+}
+
+/* Right Side - Form */
+.login-form {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Form Title */
+.login-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* Checkbox & Forgot Password */
+.login-options {
+    display: flex;
+    align-items: center; /* Aligns checkbox and text in the same line */
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: white;
+    margin: 10px 0;
+}
+
+.login-options label {
+    display: flex;
+    align-items: center; /* Ensures checkbox and text align properly */
+    white-space: nowrap;
+    gap: 5px;
+}
+
+
+.login-options a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.login-options a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.login-btn, .signup-btn {
+    width: 60%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+.login-btn {
+    background: white;
+    color: black;
+}
+
+.signup-btn {
+    background: green;
+    color: white;
+}
+
+/* Hover Effects */
+.login-btn:hover {
+    background: #f0f0f0;
+}
+
+.signup-btn:hover {
+    background: darkgreen;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .login-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

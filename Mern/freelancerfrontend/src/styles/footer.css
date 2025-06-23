@@ -1,0 +1,116 @@
+/* Footer Styles */
+.footer {
+    background-color: #1c3761; /* Dark blue background */
+    color: white;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Footer Section Styles */
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Remove unnecessary bottom border */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer-section ul li:hover {
+    text-decoration: underline;
+}
+
+/* Two-column layout for Featured Skills */
+.skills-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.skills-grid ul {
+    padding: 0;
+    list-style: none;
+}
+
+/* Horizontal Line */
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 30px auto 0;
+    padding: 20px;
+}
+
+/* Footer Left: Logo & Text */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Footer Logo */
+.toptal-logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Footer Text */
+.footer-text {
+    font-size: 14px;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons svg {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.social-icons svg:hover {
+    color: #cccccc;
+}
+
+/* Copyright Section */
+.footer-copyright {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    margin-top: 10px;
+}

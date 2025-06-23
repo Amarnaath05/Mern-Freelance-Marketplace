@@ -1,0 +1,154 @@
+/* Main container for the entire page */
+.job-post-page-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1200px;
+  background: linear-gradient(135deg, #f0f4f8, #e1f5fe);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title of the page */
+.job-post-page-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0288d1;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Form container */
+.job-post-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Grouping input fields */
+.job-post-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Label styling */
+.job-post-input-group label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Input fields styling */
+.job-post-input-group input[type="text"],
+.job-post-input-group input[type="number"],
+.job-post-input-group select,
+.job-post-input-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-post-input-group input[type="text"]:focus,
+.job-post-input-group input[type="number"]:focus,
+.job-post-input-group select:focus,
+.job-post-input-group textarea:focus {
+  border-color: #0288d1;
+  box-shadow: 0 2px 10px rgba(2, 136, 209, 0.2);
+  outline: none;
+}
+
+/* Textarea specific styling */
+.job-post-input-group textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* Salary input fields (styled in a row) */
+.job-post-salary-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.job-post-salary-fields .job-post-salary-input-group {
+  flex: 1;
+}
+
+/* Special container for file upload */
+.job-post-file-upload {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Checkbox container for terms and conditions */
+.job-post-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+/* Submit button */
+.job-post-submit-btn {
+  background-color: #0288d1;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px 35px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 220px;
+  margin: 40px auto 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: block;
+}
+
+.job-post-submit-btn:hover {
+  background: #039be5;
+  transform: scale(1.05);
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .job-post-page-wrapper {
+    padding: 20px;
+  }
+
+  .job-post-page-title {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .job-post-form {
+    padding: 20px;
+  }
+
+  .job-post-input-group input,
+  .job-post-input-group select,
+  .job-post-input-group textarea {
+    font-size: 14px;
+  }
+
+  .job-post-salary-fields {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .job-post-submit-btn {
+    font-size: 16px;
+    padding: 12px 25px;
+  }
+}

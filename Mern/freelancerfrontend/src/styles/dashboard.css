@@ -1,0 +1,229 @@
+.dashboard-container {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    background: #f4f7fb;
+    min-height: 100vh;
+  }
+  
+  .dashboard-sidebar {
+    width: 220px;
+    background: #3f4b63;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .dashboard-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .dashboard-sidebar li {
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s;
+  }
+  
+  .dashboard-sidebar li:hover,
+  .dashboard-sidebar li.active {
+    background: #4d5a7a;
+  }
+  
+  .dashboard-main {
+    flex: 1;
+    padding: 2rem;
+    background-color: #f9fafc;
+  }
+  
+  .overview-card {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .overview-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+  }
+  
+  .overview-info h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .star-icon {
+    color: gold;
+  }
+  
+  .status-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status-badge.available {
+    background: #d4edda;
+    color: #155724;
+  }
+  
+  .edit-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: #ffffff;
+    color: #4d5a7a;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .edit-btn:hover {
+    background: #e6e9f0;
+  }
+  
+  .profile-section,
+  .skills-section,
+  .experience-section,
+  .portfolio-section,
+  .earnings-section,
+  .reviews-section,
+  .settings-section {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-field label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  .profile-field input,
+  .profile-field textarea,
+  .profile-field select {
+    padding: 10px 14px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: border 0.2s;
+  }
+  
+  .profile-field input:focus,
+  .profile-field textarea:focus,
+  .profile-field select:focus {
+    border-color: #6e8efb;
+    outline: none;
+    background: #fff;
+  }
+  
+  .profile-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .profile-col {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .skill-tag {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 6px;
+    font-size: 0.9rem;
+  }
+  
+  .primary {
+    background: #6e8efb;
+    color: white;
+  }
+  
+  .secondary {
+    background: #e0e0e0;
+    color: #333;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .portfolio-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 1rem;
+    background: #fafafa;
+    text-align: center;
+  }
+  
+  .portfolio-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .review-card {
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+  }
+  
+  .save-btn {
+    padding: 0.6rem 1.2rem;
+    background: #6e8efb;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.2s ease;
+  }
+  
+  .save-btn:hover {
+    background: #597ef7;
+  }
+  
+  .cancel-btn {
+    padding: 0.6rem 1.2rem;
+    background: #e0e0e0;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    transition: background 0.2s ease;
+  }
+  
+  .cancel-btn:hover {
+    background: #c6c6c6;
+  }
+  

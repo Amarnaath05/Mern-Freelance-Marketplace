@@ -1,0 +1,314 @@
+.expert-role-container {
+  background: #eef7ff;
+  border-left: 4px solid #1dbf73;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: center;
+  margin-bottom: -800px;
+ 
+}
+ 
+.expert-about-role {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #555;
+  border: 1px solid #ddd;
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto 10px;
+}
+
+.expert-container {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+  
+}
+
+.expert-container h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.expert-container p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+ 
+.expert-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1200px;
+  margin: 0 auto;
+   
+}
+ 
+.expert-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 590px;
+ 
+  
+  
+}
+
+.expert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+ 
+.top-rated-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: gold;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+ 
+.expert-profile-card {
+  background: #c5dec4;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: calc(100% + 40px);  
+  margin-left: -20px; 
+  margin-right: -20px;  
+  height: 300px;
+  margin-top: -18px;
+}
+
+.expert-profile-card h2 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+.expert-profile-card p {
+  color: #666;
+  font-size: 1rem;
+}
+ 
+.expert-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+ 
+.expert-role {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: rgb(18, 19, 20);
+}
+ 
+.expert-country {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+ 
+.expert-rating {
+  font-size: 1rem;
+  color: #ffba00;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+ 
+.expert-skills {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.skill-tag {
+  background: #e0f5e9;
+  color: #1dbf73;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.skill-tag:hover {
+  background: #1dbf73;
+  color: white;
+}
+ 
+.more-skills-btn {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #1dbf73;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.more-skills-btn:hover {
+  text-decoration: underline;
+}
+ 
+.expert-projects {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+ 
+.expert-rate {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.like-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  top: -600px;
+  right: -110px;
+}
+
+.like-btn:hover {
+  transform: scale(1.1);
+}
+
+ 
+.like-btn-circle {
+  width: 40px;
+  height: 40px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.like-btn:hover .like-btn-circle {
+  background: #e0e0e0;
+}
+ 
+.heart-icon {
+  font-size: 1.5rem;
+  transition: transform 0.2s ease, color 0.3s;
+}
+
+.like-btn:hover .heart-icon {
+  transform: scale(1.1);
+}
+
+.expert-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.all-freelancers-btn {
+  background: none;
+  border: none;
+  color: #1dbf73;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.all-freelancers-btn:hover {
+  text-decoration: underline;
+}
+ 
+.navigation-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-btn {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-btn:hover {
+  background: #f0f0f0;
+}
+
+ 
+@media (max-width: 768px) {
+  .expert-list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .expert-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+}
+.expert-description-box {
+  padding: 5px 0; 
+  text-align: center;  
+  font-size: 14px; 
+  color: #333; 
+  max-width: 90%;  
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+.expert-description {
+  margin: 0;
+  line-height: 1.5;  
+  font-weight: 1000;
+  margin-top: -30px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  font-size: 14px;  
+    
+  color: #494e3e;  
+  text-align: left;  
+  max-width: 90%;  
+  word-wrap: break-word;  
+  padding-left: 15px;
+}
+ 
