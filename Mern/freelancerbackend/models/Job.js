@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const jobSchema = new mongoose.Schema({
   title: {
@@ -82,4 +82,4 @@ jobSchema.virtual("postedAt").get(function () {
 jobSchema.set("toJSON", { virtuals: true });
 jobSchema.set("toObject", { virtuals: true });
 
-export default mongoose.model("Job", jobSchema);
+module.exports = mongoose.model("Job", jobSchema);
